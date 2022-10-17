@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7125E51D28EC7E4900E44DEA /* CirculaQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7125E51C28EC7E4900E44DEA /* CirculaQueue.swift */; };
+		715BB15728FD9C9100C8015F /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BB15628FD9C9100C8015F /* PriorityQueue.swift */; };
+		71AA747E28F67E4300D1E489 /* BalanceTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AA747D28F67E4300D1E489 /* BalanceTree.swift */; };
 		71B8702528E7331900A77E4B /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B8702428E7331900A77E4B /* Queue.swift */; };
 		71B926DC28F00DED009ADE26 /* HashTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B926DB28F00DED009ADE26 /* HashTable.swift */; };
 		71B926DE28F06EA7009ADE26 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B926DD28F06EA7009ADE26 /* BinaryTree.swift */; };
@@ -15,6 +17,7 @@
 		71C2758628E6EB8B0097BDC3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2758328E6EB8B0097BDC3 /* Stack.swift */; };
 		71C2758728E6EB8B0097BDC3 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2758428E6EB8B0097BDC3 /* Node.swift */; };
 		71C2758828E6EB8B0097BDC3 /* DoubleLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71C2758528E6EB8B0097BDC3 /* DoubleLink.swift */; };
+		71E0D8F728F31858003AF175 /* RedBlackTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E0D8F628F31858003AF175 /* RedBlackTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,8 @@
 
 /* Begin PBXFileReference section */
 		7125E51C28EC7E4900E44DEA /* CirculaQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculaQueue.swift; sourceTree = "<group>"; };
+		715BB15628FD9C9100C8015F /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		71AA747D28F67E4300D1E489 /* BalanceTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceTree.swift; sourceTree = "<group>"; };
 		71B8702428E7331900A77E4B /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		71B926DB28F00DED009ADE26 /* HashTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashTable.swift; sourceTree = "<group>"; };
 		71B926DD28F06EA7009ADE26 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -39,6 +44,7 @@
 		71C2758328E6EB8B0097BDC3 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		71C2758428E6EB8B0097BDC3 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		71C2758528E6EB8B0097BDC3 /* DoubleLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleLink.swift; sourceTree = "<group>"; };
+		71E0D8F628F31858003AF175 /* RedBlackTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlackTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				7125E51C28EC7E4900E44DEA /* CirculaQueue.swift */,
 				71B926DB28F00DED009ADE26 /* HashTable.swift */,
 				71B926DD28F06EA7009ADE26 /* BinaryTree.swift */,
+				71E0D8F628F31858003AF175 /* RedBlackTree.swift */,
+				71AA747D28F67E4300D1E489 /* BalanceTree.swift */,
+				715BB15628FD9C9100C8015F /* PriorityQueue.swift */,
 			);
 			path = File;
 			sourceTree = "<group>";
@@ -154,6 +163,9 @@
 				71C2758828E6EB8B0097BDC3 /* DoubleLink.swift in Sources */,
 				71B926DC28F00DED009ADE26 /* HashTable.swift in Sources */,
 				71C2758728E6EB8B0097BDC3 /* Node.swift in Sources */,
+				71E0D8F728F31858003AF175 /* RedBlackTree.swift in Sources */,
+				715BB15728FD9C9100C8015F /* PriorityQueue.swift in Sources */,
+				71AA747E28F67E4300D1E489 /* BalanceTree.swift in Sources */,
 				71C2758628E6EB8B0097BDC3 /* Stack.swift in Sources */,
 				71C2757C28E6EB720097BDC3 /* main.swift in Sources */,
 				7125E51D28EC7E4900E44DEA /* CirculaQueue.swift in Sources */,

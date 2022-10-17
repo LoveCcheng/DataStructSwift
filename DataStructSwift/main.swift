@@ -72,6 +72,15 @@ import Foundation
 //criQueue.deQueue()
 //print(criQueue)
 
+var priQueue = PriorityQueue<String>()
+priQueue.enQueue("xumin", .normal)
+priQueue.enQueue("cheng", .normal)
+priQueue.enQueue("xiaozhu", .high)
+priQueue.enQueue("haha", .low)
+priQueue.enQueue("pppppp", .normal)
+priQueue.enQueue("iiiiii", .mid)
+priQueue.enQueue("best", .high)
+print(priQueue)
 
 //var ht = HashTable(10)
 //ht.addValue(23)
@@ -86,27 +95,27 @@ import Foundation
 //let v = ht.hashTable[9]
 //print(v)
 
-let tree = BinarySearchTree<Int>()
-tree.insert(34)
-tree.insert(12)
-tree.insert(23)
-tree.insert(89)
-tree.insert(100)
-tree.insert(10)
-tree.insert(93)
-tree.insert(8)
-tree.insert(16)
-tree.insert(28)
-tree.insert(88)
-tree.insert(96)
-tree.insert(102)
-tree.insert(11)
-tree.insert(20)
-var str = ""
-tree.preOrderTraverasl { key in
-    str += "\(key)" + " "
-}
-print(str)
+//let tree = BinarySearchTree<Int>()
+//tree.insert(34)
+//tree.insert(12)
+//tree.insert(23)
+//tree.insert(89)
+//tree.insert(100)
+//tree.insert(10)
+//tree.insert(93)
+//tree.insert(8)
+//tree.insert(16)
+//tree.insert(28)
+//tree.insert(88)
+//tree.insert(96)
+//tree.insert(102)
+//tree.insert(11)
+//tree.insert(20)
+//var str = ""
+//tree.preOrderTraverasl { key in
+//    str += "\(key)" + " "
+//}
+//print(str)
 //
 //str = ""
 //tree.midOrderTraverasl { key in
@@ -129,9 +138,9 @@ print(str)
 //}else{
 //    print("没有找到哦")
 //}
-print(tree.remove(89))
-str = ""
-tree.preOrderTraverasl { key in
-    str += "\(key)" + " "
-}
-print(str)
+//print(tree.remove(89))
+//str = ""
+//tree.preOrderTraverasl { key in
+//    str += "\(key)" + " "
+//}
+//print(str)
